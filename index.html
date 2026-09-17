@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XO // AFTER HOURS — The Weeknd World</title>
+  <meta name="description" content="A fan-made cinematic listening experience inspired by The Weeknd's neon after-hours aesthetic.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+
+  <header class="nav">
+    <a class="brand" href="#">
+      <span class="brand-mark">XO</span>
+      <span>AFTER HOURS</span>
+    </a>
+    <nav>
+      <a href="#listen">Listen</a>
+      <a href="#eras">Eras</a>
+      <a href="#world">World</a>
+    </nav>
+    <a class="official" href="https://www.theweeknd.com/" target="_blank" rel="noreferrer">OFFICIAL ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> THE WEEKND // FAN EXPERIENCE</p>
+        <h1>ENTER THE<br><em>NIGHT.</em></h1>
+        <p class="hero-sub">A cinematic home for the sound, eras and atmosphere of The Weeknd — built for headphones, midnight drives and everything after.</p>
+        <div class="hero-actions">
+          <button class="primary" data-play="starboy">▶ PLAY STARBOY</button>
+          <a class="ghost" href="#listen">EXPLORE THE WORLD ↓</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="halo"></div>
+        <div class="silhouette"></div>
+        <div class="hero-card">
+          <span>01 / 06</span>
+          <strong>AFTER<br>HOURS</strong>
+          <small>NEON // NIGHT // XO</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker">
+      <div>BLINDING LIGHTS ✦ STARBOY ✦ CALL OUT MY NAME ✦ SAVE YOUR TEARS ✦ THE HILLS ✦ AFTER HOURS ✦</div>
+    </section>
+
+    <section id="listen" class="section listen">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span></span> THE LISTENING ROOM</p>
+          <h2>Press play.<br><em>Stay awhile.</em></h2>
+        </div>
+        <p class="section-note">Official music videos are loaded through YouTube. This site does not host or redistribute copyrighted audio.</p>
+      </div>
+
+      <div class="player-shell">
+        <div class="video-wrap">
+          <iframe id="ytPlayer"
+            src="https://www.youtube.com/embed/34Na4j8AVgA?rel=0&modestbranding=1"
+            title="The Weeknd player"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="now-playing">
+          <div>
+            <span class="mini-label">NOW PLAYING</span>
+            <h3 id="nowTitle">Starboy</h3>
+            <p id="nowMeta">The Weeknd • Starboy • 2016</p>
+          </div>
+          <a id="ytOpen" href="https://www.youtube.com/watch?v=34Na4j8AVgA" target="_blank" rel="noreferrer">OPEN ON YOUTUBE ↗</a>
+        </div>
+      </div>
+
+      <div class="track-grid" id="trackGrid"></div>
+    </section>
+
+    <section id="eras" class="section eras">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span></span> THE ARCHIVE</p>
+          <h2>Six moods.<br><em>One voice.</em></h2>
+        </div>
+      </div>
+      <div class="era-grid">
+        <article class="era era-1"><span>01</span><h3>House of<br>Balloon</h3><p>Dark R&B / 2011</p></article>
+        <article class="era era-2"><span>02</span><h3>Beauty<br>Behind the Madness</h3><p>Pop / 2015</p></article>
+        <article class="era era-3"><span>03</span><h3>Starboy</h3><p>Electropop / 2016</p></article>
+        <article class="era era-4"><span>04</span><h3>My Dear<br>Melancholy,</h3><p>Alt R&B / 2018</p></article>
+        <article class="era era-5"><span>05</span><h3>After<br>Hours</h3><p>Darkwave / 2020</p></article>
+        <article class="era era-6"><span>06</span><h3>Dawn<br>FM</h3><p>Dance-pop / 2022</p></article>
+      </div>
+    </section>
+
+    <section id="world" class="section world">
+      <div class="world-card">
+        <div>
+          <p class="eyebrow"><span></span> THE WORLD</p>
+          <h2>From Toronto<br>to <em>everywhere.</em></h2>
+          <p>Designed like a late-night radio station: chrome typography, blood-red light, deep black space and little flashes of city neon.</p>
+        </div>
+        <div class="world-stat"><strong>XO</strong><span>THE SOUND<br>AFTER DARK</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>XO // AFTER HOURS</strong><span>Unofficial fan-made concept.</span></div>
+    <div><a href="https://www.theweeknd.com/" target="_blank" rel="noreferrer">theweeknd.com ↗</a></div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
